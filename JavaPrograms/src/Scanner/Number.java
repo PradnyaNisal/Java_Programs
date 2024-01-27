@@ -1,0 +1,18 @@
+package Scanner;
+
+import java.util.Scanner;
+
+public class Number {
+
+	public static void main(String[] args) {
+		int a ;
+		
+		Scanner sc=new Scanner(System.in);
+		 System.out.println("Enter Number:");
+		 a=sc.nextInt();
+		 System.out.println("hello "+a);
+		 
+		 sc.close();
+	}
+
+}
